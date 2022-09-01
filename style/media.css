@@ -1,0 +1,37 @@
+@media(max-width: 1200px) {
+    .main__grid {
+        grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    margin: 0 auto;
+    }
+    .main__menu {
+        flex-wrap: wrap;
+    }
+
+    .footer__links-box {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+
+}
+@media(max-width: 992px) {
+    .footer__content-links {
+        flex-wrap: wrap;
+    }
+}
+@media(max-width: 768px) {
+    .main__burger-box {
+        flex-wrap: wrap;
+    }
+    .header__nav {
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+}
+@media(max-width: 480px){
+    .main__burger-img {
+        width: 100%;
+    }
+}
