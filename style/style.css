@@ -29,7 +29,16 @@
 .header {
     background: url(../images/nav-img.png) no-repeat right/cover;
     height: 886px;
+    display: flex;
 
+}
+.container__header {
+    max-width: 1373px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
 }
 
 .header__nav {
@@ -91,8 +100,12 @@
 
 
 .hrader__info {
-    max-width: 555px;
-    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    
 }
 
 .header__title {
@@ -100,8 +113,8 @@
     line-height: 16px;
     font-family: var(--rm);
     color: var(--white);
-    margin-top: 186px;
     margin-bottom: 7px;
+    
 }
 
 .intro__contetn-text {
@@ -109,6 +122,8 @@
     line-height: 67px;
     font-family: var(--rb);
     color: var(--white);
+    max-width: 555px;
+    width: 100%;
 
 }
 
@@ -264,12 +279,19 @@
 
 }
 
+.main__grid-img {
+    max-width: 555px;
+    width: 100%;
+}
+
 
 .main__grid-1 {
     font-size: 16px;
     line-height: 19px;
     color: #F6762C;
     font-family: var(--rm);
+    
+    
 
 }
 
@@ -279,17 +301,16 @@
     color: #F6762C;
     opacity: 0.5;
     font-family: var(--rm);
+   
 
 }
 
 .main__grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
     padding-top: 120px;
     padding-bottom: 120px;
-    max-width: 555px;
-    width: 100%;
     gap: 40px;
     padding-left: 20px;
 

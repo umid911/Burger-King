@@ -29,6 +29,9 @@
         justify-content: center;
 
     }
+    .main__grid {
+        
+    }
 }
 @media(max-width: 480px){
     .main__burger-img {
